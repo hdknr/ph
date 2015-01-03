@@ -1,0 +1,19 @@
+{
+    "name": "hdknr/ph",
+    "description": "PHP tools",
+    "type": "library",
+    "keywords": ["console", "interactive", "shell", "repl"],
+    "homepage": "https://github.com/hdknr/ph",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hideki nara",
+            "email": "gmail@hdknr.com",
+            "homepage": "https://github.com/hdknr/ph"
+        }
+    ],
+    "require": {
+        "psy/psysh": "~0.1"
+    },
+    "bin": ["bin/ph"]
+}
