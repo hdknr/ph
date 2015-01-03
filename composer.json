@@ -15,5 +15,8 @@
     "require": {
         "psy/psysh": "~0.1"
     },
-    "bin": ["bin/ph"]
+    "bin": ["bin/ph"],
+    "autoload": {
+        "psr-0": { "": "lib/" }
+    }
 }
