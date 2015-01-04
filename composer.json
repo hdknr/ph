@@ -17,6 +17,8 @@
     },
     "bin": ["bin/ph"],
     "autoload": {
-        "psr-0": { "": "lib/" }
+        "psr-0": { 
+            "ph\\": "lib/" 
+        }
     }
 }
